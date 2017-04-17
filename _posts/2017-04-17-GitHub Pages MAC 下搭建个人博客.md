@@ -1,0 +1,49 @@
+---
+title: GitHub Pages MAC 下搭建个人博客
+category: 网站技术
+feature_image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492419704794&di=79b375df19a78d9c69b90206f53fb6de&imgtype=0&src=http%3A%2F%2Fimage.tianjimedia.com%2FuploadImages%2F2012%2F235%2F9J92Z5E5R868.jpg"
+---
+
+今天开启第一步，搭一个github pages 个人博客
+
+<!-- more -->
+
+
+# GitHub Pages MAC 下搭建个人博客
+
+## 1. 第一步参照英文文档直接创建page
+ 链接地址：https://pages.github.com/
+ * Create a repository
+ * clone 到本地。
+ * 编写 index.html 然后上传到线上即可。
+
+ 可以用命令行或 sourceTree的方式。文档介绍很详细。按照做就是了。
+
+
+## 2. 但自己维护html页面，我们用：Jekyll
+
+* 安装GEM
+
+		##检查gem版本
+		gem -v
+		##更新Gem(提示权限)
+		gem update --system
+
+如果遇到无法下载的问题，请直接翻墙解决。		
+
+* 安装jekyll
+		
+		安装jekyll(提示权限)
+		$ gem install jekyll
+		安装成功之后，查看版本号
+		$ jekyll -v
+
+	* 遇到的问题：
+	  * 无权限问题:Permission denied - /Library/Ruby/Gems/2.0.0/gems/jekyll-3.4.3/.rubocop.yml，请直接 sudo chmod -R 777 /Library/Ruby/
+	  * 还是权限问题：sudo gem install jekyll
+ERROR:  While executing gem ... (Errno::EPERM)
+    Operation not permitted - /usr/bin/jekyll，可以通过：sudo gem install -n /usr/local/bin/ jekyll 来解决。
+    
+## 3. 使用Jekyll
+* 去找你喜欢的模板吧。网址：http://jekyllthemes.org/
+* 下载其中的Demo，解压后，上传到仓库，然后修改 _posts 中的md文件即可。
