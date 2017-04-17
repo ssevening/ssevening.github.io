@@ -10,18 +10,16 @@ image: "https://ssevening.github.io/assets/android.png"
 <!-- more -->
 
 
-# GitHub Pages MAC 下搭建个人博客
-
-## 1. 第一步参照英文文档直接创建page
- 链接地址：https://pages.github.com/
+### 1. 第一步参照英文文档直接创建page
+ 链接地址：[https://pages.github.com/](https://pages.github.com/)
  * Create a repository
  * clone 到本地。
- * 编写 index.html 然后上传到线上即可。
+ * 编写 index.html 然后上传到线上即可.
 
- 可以用命令行或 sourceTree的方式。文档介绍很详细。按照做就是了。
+ 可以用命令行或 sourceTree 工具进行文件上传或管理。文档介绍很详细。按照做就是了。
 
 
-## 2. 但自己维护html页面，我们用：Jekyll
+### 2. 制作漂亮的页面，我们选：Jekyll
 
 * 安装GEM
 
@@ -45,6 +43,9 @@ image: "https://ssevening.github.io/assets/android.png"
 ERROR:  While executing gem ... (Errno::EPERM)
     Operation not permitted - /usr/bin/jekyll，可以通过：sudo gem install -n /usr/local/bin/ jekyll 来解决。
     
-## 3. 使用Jekyll
-* 去找你喜欢的模板吧。网址：http://jekyllthemes.org/
+### 3. 使用Jekyll
+* 去找你喜欢的模板吧。网址：[下载地址](http://jekyllthemes.org/)
 * 下载其中的Demo，解压后，上传到仓库，然后修改 _posts 中的md文件即可。
+
+
+
