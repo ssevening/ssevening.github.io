@@ -84,8 +84,8 @@ encoding: utf-8 # Make sure the encoding is right
 title: "ssevening的技术空间" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "PS ASP JAVA Android J2EE 诗和远方 理财 买房 人生 教育，我写我的技术" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
-repo: "https://github.com/daviddarnes/alembic"
+url: "http://ssevening.github.io" # Site url, also used in jekyll-seo-tag
+repo: "https://github.com/ssevening"
 email: "ssevening@gmail.com"
 disqus: "alembic-1"
 avatarurl: "https://lh3.googleusercontent.com/-AIkcwwlASq8/AAAAAAAAAAI/AAAAAAAAKfA/ShBdzcBrV_M/s72-p-k-rw-no/photo.jpg" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
@@ -100,14 +100,14 @@ navigation_header:
   Fork ssevening: https://github.com/ssevening
 
 navigation_footer:
-  Created by David Darnes: https://darn.es
+  Created by ssevening: https://www.ssevening.com
 
 social_links:
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  Google+: https://plus.google.com/+DavidDarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
+  Twitter: https://twitter.com/ssevening
+  LinkedIn: https://www.linkedin.com/in/ssevening
+  Google+: https://plus.google.com/+潘辰星
+  GitHub: https://github.com/ssevening
+  link: https://www.ssevening.com
 
 sharing_links:
   Twitter: "#1DA1F2"
