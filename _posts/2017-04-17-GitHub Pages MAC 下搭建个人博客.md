@@ -1,7 +1,8 @@
 ---
 title: GitHub Pages MAC 下搭建个人博客
 category: 网站技术
-feature_image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492419704794&di=79b375df19a78d9c69b90206f53fb6de&imgtype=0&src=http%3A%2F%2Fimage.tianjimedia.com%2FuploadImages%2F2012%2F235%2F9J92Z5E5R868.jpg"
+feature_image: "https://ssevening.github.io/assets/android.png"
+image: "https://ssevening.github.io/assets/android.png"
 ---
 
 今天开启第一步，搭一个github pages 个人博客
