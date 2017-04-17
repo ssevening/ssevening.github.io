@@ -42,7 +42,7 @@ social: # jekyll-seo-tag > social overrides
     - https://twitter.com/DavidDarnes
     - https://www.facebook.com/daviddarnes
     - https://www.linkedin.com/in/daviddarnes
-    - https://plus.google.com/+DavidDarnes
+    - https://plus.google.com/+%E6%BD%98%E8%BE%B0%E6%98%9F
     - https://github.com/daviddarnes
 
 # 4. Jekyll settings
@@ -81,14 +81,14 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+title: "ssevening的技术空间" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "PS ASP JAVA Android J2EE 诗和远方 理财 买房 人生 教育，我写我的技术" # Site description and default description, also used in jekyll-seo-tag
 url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+email: "ssevening@gmail.com"
 disqus: "alembic-1"
-avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "https://lh3.googleusercontent.com/-AIkcwwlASq8/AAAAAAAAAAI/AAAAAAAAKfA/ShBdzcBrV_M/s72-p-k-rw-no/photo.jpg" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
@@ -97,7 +97,7 @@ navigation_header:
   Blog: /blog/
   Categories: /categories/
   Search: /search/
-  Fork Alembic: https://github.com/daviddarnes/alembic
+  Fork ssevening: https://github.com/ssevening
 
 navigation_footer:
   Created by David Darnes: https://darn.es
