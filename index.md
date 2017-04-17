@@ -3,7 +3,7 @@ title: ssevening
 feature_text:欢迎来到ssevening
 website
 feature_image: "http://img.pconline.com.cn/images/upload/upc/tx/wallpaper/1207/10/c0/12283225_1341883827184.jpg"
-image: "http://img.pconline.com.cn/images/upload/upc/tx/wallpaper/1207/10/c0/12283225_1341883827184.jpg"
+image: "http://pic38.nipic.com/20140228/8821914_204428973000_2.jpg"
 excerpt: "首页"
 ---
 
