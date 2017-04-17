@@ -1,9 +1,11 @@
 ---
-title: ssevening
-feature_text:欢迎来到ssevening
-feature_image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492419704794&di=79b375df19a78d9c69b90206f53fb6de&imgtype=0&src=http%3A%2F%2Fimage.tianjimedia.com%2FuploadImages%2F2012%2F235%2F9J92Z5E5R868.jpg"
-image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492419704794&di=79b375df19a78d9c69b90206f53fb6de&imgtype=0&src=http%3A%2F%2Fimage.tianjimedia.com%2FuploadImages%2F2012%2F235%2F9J92Z5E5R868.jpg"
-excerpt: "首页"
+title: About ssevening
+feature_text: |
+  ## sseveing
+  一个屌丝码农程序员
+feature_image: "https://unsplash.it/1300/400?image=971"
+image: "https://unsplash.it/600/400?image=971"
+excerpt: "不是CV工程帅"
 ---
 
 ## Recommend
