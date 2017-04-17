@@ -1,30 +1,48 @@
 ---
 layout: page
-title: About
+title: 关于我 
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+一个 iOS SDK 开发者，喜欢研究一些新技术。
+<p>
+平时喜欢整理个人博客，逛逛技术论坛。
+<p>
+了解一些 前端 基本概念和 Python 的简单用法。
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<p>
 
-There are currently two themes built on Poole:
+所在公司
+<a target="_blank" href="https://www.talkingdata.com/"> TalkingData </a>
+是一个移动互联网大数据平台的公司，无论你是运营、产品、开发 或者是App终端用户都可以了解下我们公司。
+<p>
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+推荐一个我维护的 Team 博客
+<a target="_blank" href="http://talkingdata.me/"> voyagelab </a>
+里面有一些关于 iOS 、Android 和 机器学习 的文章。
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+<p>
 
-## Setup
+<h3> 我们的博客 </h3>  
 
-Some fun facts about the setup of this project include:
+<p>
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+是的，这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+<p>
 
-Thanks for reading!
+如果你想搭建一个跟我一样的博客，可以看我的 
+<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
+教程
+
+<p>
+
+有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
+
+<p> 
+
+博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
+
+{% include comments.html %}
+
+
+
