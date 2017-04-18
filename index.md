@@ -9,5 +9,6 @@ excerpt: "不是CV工程帅"
 ---
 
 ### Recommend
-
+- [Android Fragment 使用备注](https://ssevening.github.io/android%E5%BC%80%E5%8F%91/2017/04/18/Android-Fragment%E4%BD%BF%E7%94%A8%E5%A4%87%E6%B3%A8/)
+- [MD 语法 使用个人总结](https://ssevening.github.io/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/2017/04/17/MD%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B%E5%AD%A6%E4%B9%A0/)
 - [GitHub Pages MAC 下搭建个人博客](https://ssevening.github.io/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/2017/04/17/GitHub-Pages-MAC-%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
