@@ -47,5 +47,9 @@ ERROR:  While executing gem ... (Errno::EPERM)
 * 去找你喜欢的模板吧。网址：[下载地址](http://jekyllthemes.org/)
 * 下载其中的Demo，解压后，上传到仓库，然后修改 _posts 中的md文件即可。
 
+### 4. 域名指向
+* 申请个域名，添加一个DNS解析记录到 用户名.github.io。
+* 在github中 新建CNAME文件名，然后写上你要解析的域名即可。
+
 
 
