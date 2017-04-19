@@ -83,7 +83,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 title: "ssevening的技术空间" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "PS ASP JAVA Android J2EE 诗和远方 理财 买房 人生 教育，我写我的技术" # Site description and default description, also used in jekyll-seo-tag
+description: "阿里巴巴技术专家，HTML-> PS ->ASP -> JSP -> J2EE -> Android -> 无线 -> 未来 -> 诗和远方" # Site description and default description, also used in jekyll-seo-tag
 url: "http://ssevening.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/ssevening"
 email: "ssevening@gmail.com"
@@ -93,21 +93,20 @@ avatarurl: "https://lh3.googleusercontent.com/-AIkcwwlASq8/AAAAAAAAAAI/AAAAAAAAK
 # 8. Site navigation
 navigation_header:
   Home: /
-  Elements: /elements/
   Blog: /blog/
   Categories: /categories/
   Search: /search/
   Fork ssevening: https://github.com/ssevening
 
 navigation_footer:
-  Created by ssevening: https://www.ssevening.com
+  Created by ssevening: http://www.ssevening.com
 
 social_links:
   Twitter: https://twitter.com/ssevening
   LinkedIn: https://www.linkedin.com/in/ssevening
   Google+: https://plus.google.com/+潘辰星
   GitHub: https://github.com/ssevening
-  link: https://www.ssevening.com
+  link: http://www.ssevening.com
 
 sharing_links:
   Twitter: "#1DA1F2"
