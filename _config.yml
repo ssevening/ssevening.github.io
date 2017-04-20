@@ -39,11 +39,11 @@ author: DavidDarnes # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: David Darnes # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://plus.google.com/+%E6%BD%98%E8%BE%B0%E6%98%9F
-    - https://github.com/daviddarnes
+    - https://twitter.com/ssevening
+    - https://www.facebook.com/ssevening
+    - https://www.linkedin.com/in/ssevening
+    - https://plus.google.com/+潘辰星
+    - https://github.com/ssevening
 
 # 4. Jekyll settings
 sass:
@@ -81,9 +81,9 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "ssevening的技术空间" # Site name or title, also used in jekyll-seo-tag
+title: "潘辰星的技术空间" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "阿里巴巴技术专家，HTML-> PS ->ASP -> JSP -> J2EE -> Android -> 无线 -> 未来 -> 诗和远方" # Site description and default description, also used in jekyll-seo-tag
+description: "阿里巴巴无线技术专家，HTML-> PS ->ASP -> JSP -> J2EE -> Android -> 无线 -> 未来 -> 诗和远方" # Site description and default description, also used in jekyll-seo-tag
 url: "http://ssevening.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/ssevening"
 email: "ssevening@gmail.com"
@@ -118,4 +118,4 @@ sharing_links:
   Reddit: "#FF4500"
   Hacker News: "#ff6600"
   Designer News: "#2D72D9"
-  Email: ""
+  Email: "ssevening@gmail.com"

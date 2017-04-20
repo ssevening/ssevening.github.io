@@ -1,11 +1,10 @@
 ---
 title: 首页
 feature_text: |
-  ## sseveing
-  阿里巴巴技术专家 从事J2EE开发、Android开发。
+  ## 潘辰星
+  阿里巴巴无线技术专家 J2EE开发、Android开发
 feature_image: "https://ssevening.github.io/assets/android.png"
 image: "https://ssevening.github.io/assets/android.png"
-excerpt: "不是CV工程帅"
 ---
 
 ### Recommend
