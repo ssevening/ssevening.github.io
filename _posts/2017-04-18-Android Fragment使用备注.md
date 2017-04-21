@@ -62,6 +62,11 @@ Google官方源码中，**是写在onAttach中的，项目中，通常会写在o
 
 
 附上个人微信公众号
+
 ![个人微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
+
+我的小密圈
+
+![我的小密圈](https://ssevening.github.io/assets/mi_qrcode.png)
 
 
