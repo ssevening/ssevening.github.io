@@ -22,6 +22,10 @@ image: "https://ssevening.github.io/assets/android.png"
 
 
 
-个人微信公众号如下
+附上个人微信公众号
 
 ![个人微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
+
+我的小密圈
+
+![我的小密圈](https://ssevening.github.io/assets/mi_qrcode.png)
