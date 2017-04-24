@@ -9,6 +9,8 @@ image: "https://ssevening.github.io/assets/android.png"
 
 ### Recommend
 
+
+- [Application onCreate 初始化优化](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/23/Application-onCreate%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BC%98%E5%8C%96/)
 - [利用ARouter进行业务架构解耦](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/20/%E5%88%A9%E7%94%A8ARouter%E8%BF%9B%E8%A1%8C%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%A7%A3%E8%80%A6/)
 - [Android Dagger2 使用文档](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/18/Dragger2-%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/)
 - [Android Fragment 使用备注](https://ssevening.github.io/android%E5%BC%80%E5%8F%91/2017/04/18/Android-Fragment%E4%BD%BF%E7%94%A8%E5%A4%87%E6%B3%A8/)
