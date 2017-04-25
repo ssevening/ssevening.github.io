@@ -177,12 +177,211 @@ service.getUserData();
 * 易于开发，接入简单，开发成本低。
 * 支持动态参数，动态路径，比如api中有动态的参数的情况。可以在路径中替换。
 * RxJAVA无缝支持，rx火了，他也跟着火了。
+* JSON to POJO 是在IO线程中执行的。而volley是在主线程中完成的。这点性能上要好一些。
 
 下面来爆菊：
 * 上面代码中，必须添加 baseUrl，这就是他的致命问题，比如我们默认访问 hangzhou.api.com 但当杭州出现问题的时候，我们要切换到 shanghai.api.com,这种情况下，baseUrl就显得有点尴尬了。当然，你说我们可以解析API，然后动态构建Retrofit，那下面我再举例子。
 * 对于那种API提供是多方提供的，如果有一个模块的展示数据源，今天是 hot.api.com/product.json 明天是 cold.api.com/p.json 这种情况，那也就费了。
+* 或者还有一种解决方案：就是定义一个通用的Service,即如下代码的情况。但这就一点也不符合Retrofit的设计了。
+
+```
+// parse url get base url and url path: http://api.com/aaa.htm
+String baseUrl = "http://api.com";
+String path = "aaa.htm";
+Retrofit retrofit = new Retrofit.Builder()
+    .baseUrl(baseUrl)
+    .addConverterFactory(GsonConverterFactory.create())
+    .build();
+    
+Service的代码实现如下：
+    @GET("{path}")
+    public Observable<JSON> getApiData(@Path("path") String path);    
+
+调用的时候，如下面方法的调用
+String json = service.getApiData(path);
+// 下面再把json解析成pojo.好吧。我只能帮你到这里了。
+
+
+```
 
 所以综上所述，对于集中式管理API的App来说，使用Retrofit是个不错的选择，特别是结合RXJAVA，但当App越来越大的时候，特别是涉及到容灾，域名切换，甚至多机房的情况下，使用起来就费了。
+
+* 再说一下实现原理：先说入口：GitHubService service = retrofit.create(GitHubService.class); Create方法为入口。
+
+```
+public <T> T create(final Class<T> service) {
+    // 传递过来的类进行校验，看看不是接口类，是不是没有接口定义之类的。
+    Utils.validateServiceInterface(service);
+    if (validateEagerly) {
+      eagerlyValidateMethods(service);
+    }
+    // 这里就是动态代理了
+    return (T) Proxy.newProxyInstance(service.getClassLoader(), new Class<?>[] { service },
+        new InvocationHandler() {
+          // 看看是什么操作平台，如Android JAVA8之类的，根据平台最终实现的方案不同。我们这里直接跳到最终的 loadMethodHandler方法
+          private final Platform platform = Platform.get();
+
+          @Override public Object invoke(Object proxy, Method method, Object... args)
+              throws Throwable {
+            // If the method is a method from Object then defer to normal invocation.
+            if (method.getDeclaringClass() == Object.class) {
+              return method.invoke(this, args);
+            }
+            if (platform.isDefaultMethod(method)) {
+              return platform.invokeDefaultMethod(method, service, proxy, args);
+            }
+            return loadMethodHandler(method).invoke(args);
+          }
+        });
+  }
+```
+下面的方法，我们再看MethodHandler.create(this, method)的方法，这里主要就是先从缓存中取一下没有这个实例，如果有，直接用，如果没有，就创建，所以第二次调用会快，第一次调用会慢一丢丢。上面的代码中，最后就是搞出一个MethodHandler来后，再调用相应的invoke方法。
+
+```
+  MethodHandler loadMethodHandler(Method method) {
+    MethodHandler handler;
+    synchronized (methodHandlerCache) {
+      // 这里是用来缓存MethodHandler的。
+      handler = methodHandlerCache.get(method);
+      if (handler == null) {
+        handler = MethodHandler.create(this, method);
+        methodHandlerCache.put(method, handler);
+      }
+    }
+    return handler;
+  }
+```
+
+下面的代码中，封装了请求工程，以前数据返回的转换适配器。我们直接找MothodHandler.invoke方法的实现类去。
+
+```
+  static MethodHandler create(Retrofit retrofit, Method method) {
+    CallAdapter<?> callAdapter = createCallAdapter(method, retrofit);
+    Type responseType = callAdapter.responseType();
+    if (responseType == Response.class || responseType == okhttp3.Response.class) {
+      throw Utils.methodError(method, "'"
+          + Types.getRawType(responseType).getName()
+          + "' is not a valid response body type. Did you mean ResponseBody?");
+    }
+    Converter<ResponseBody, ?> responseConverter =
+        createResponseConverter(method, retrofit, responseType);
+    RequestFactory requestFactory = RequestFactoryParser.parse(method, responseType, retrofit);
+    return new MethodHandler(retrofit.callFactory(), requestFactory, callAdapter,
+        responseConverter);
+  }
+```
+下面的代码就是invoke的实现类，把所有builder过程中的参数都带了进去。发送网络请求的真实实现马上要来了。继续看：callAdapter.adapt的实现类
+
+```
+  Object invoke(Object... args) {
+    return callAdapter.adapt(
+        new OkHttpCall<>(callFactory, requestFactory, args, responseConverter));
+  }
+
+```
+
+我们看到，执行的是RxJAVA的代码，这里的核心是被观察者的生成。我们下一步去看：new CallOnSubscribe的实现。
+
+```
+
+    @Override public <R> Observable<R> adapt(Call<R> call) {
+      return Observable.create(new CallOnSubscribe<>(call)) //
+          .flatMap(new Func1<Response<R>, Observable<R>>() {
+            @Override public Observable<R> call(Response<R> response) {
+              if (response.isSuccess()) {
+                return Observable.just(response.body());
+              }
+              return Observable.error(new HttpException(response));
+            }
+          });
+    }
+  }
+```
+
+然后就有下下面的代码, 在call方法中，call.execute() 最终发送了网络请求，看一下他的具体实现。在一个代码段。
+
+```
+  static final class CallOnSubscribe<T> implements Observable.OnSubscribe<Response<T>> {
+    private final Call<T> originalCall;
+
+    CallOnSubscribe(Call<T> originalCall) {
+      this.originalCall = originalCall;
+    }
+
+    @Override public void call(final Subscriber<? super Response<T>> subscriber) {
+      // Since Call is a one-shot type, clone it for each new subscriber.
+      final Call<T> call = originalCall.clone();
+
+      // Attempt to cancel the call if it is still in-flight on unsubscription.
+      subscriber.add(Subscriptions.create(new Action0() {
+        @Override public void call() {
+          call.cancel();
+        }
+      }));
+
+      try {
+        Response<T> response = call.execute();
+        if (!subscriber.isUnsubscribed()) {
+          subscriber.onNext(response);
+        }
+      } catch (Throwable t) {
+        Exceptions.throwIfFatal(t);
+        if (!subscriber.isUnsubscribed()) {
+          subscriber.onError(t);
+        }
+        return;
+      }
+
+      if (!subscriber.isUnsubscribed()) {
+        subscriber.onCompleted();
+      }
+    }
+  }
+```
+实现类okhttp3的代码，发送了网络请求，然后并且解析返回，然后转换为我们要返回的POJO对象，至此就完成了一次网络交互。
+
+```
+
+  @Override public Response<T> execute() throws IOException {
+    okhttp3.Call call;
+
+    synchronized (this) {
+      if (executed) throw new IllegalStateException("Already executed.");
+      executed = true;
+
+      if (creationFailure != null) {
+        if (creationFailure instanceof IOException) {
+          throw (IOException) creationFailure;
+        } else {
+          throw (RuntimeException) creationFailure;
+        }
+      }
+
+      call = rawCall;
+      if (call == null) {
+        try {
+          call = rawCall = createRawCall();
+        } catch (IOException | RuntimeException e) {
+          creationFailure = e;
+          throw e;
+        }
+      }
+    }
+
+    if (canceled) {
+      call.cancel();
+    }
+
+    return parseResponse(call.execute());
+  }
+
+```
+
+
+
+
+
+
 
 
 
