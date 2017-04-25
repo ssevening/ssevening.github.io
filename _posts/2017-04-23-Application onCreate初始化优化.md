@@ -80,10 +80,9 @@ public class LogUtilsInit {
 
 
 
+欢迎关注作者微信公众号
 
-附上个人微信公众号
-
-![个人微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
+![微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
 
 
 
