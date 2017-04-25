@@ -9,7 +9,7 @@ image: "https://ssevening.github.io/assets/android.png"
 
 ### Recommend
 
-
+- [Reservoir 实现的简易缓存](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/25/Reservoir-%E5%AE%9E%E7%8E%B0%E7%9A%84%E7%AE%80%E6%98%93%E7%BC%93%E5%AD%98/)
 - [Application onCreate 初始化优化](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/23/Application-onCreate%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BC%98%E5%8C%96/)
 - [利用ARouter进行业务架构解耦](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/20/%E5%88%A9%E7%94%A8ARouter%E8%BF%9B%E8%A1%8C%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%A7%A3%E8%80%A6/)
 - [Android Dagger2 使用文档](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/18/Dragger2-%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/)
@@ -24,10 +24,6 @@ image: "https://ssevening.github.io/assets/android.png"
 
 
 
-附上个人微信公众号
+欢迎关注作者微信公众号
 
 ![个人微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
-
-我的小密圈
-
-![我的小密圈](https://ssevening.github.io/assets/mi_qrcode.png)
