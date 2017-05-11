@@ -9,6 +9,7 @@ image: "https://ssevening.github.io/assets/android.png"
 
 ### Recommend
 
+- [Android安全那点事](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/05/08/Android%E5%AE%89%E5%85%A8%E9%82%A3%E7%82%B9%E4%BA%8B/)
 - [Reservoir 实现的简易缓存](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/25/Reservoir-%E5%AE%9E%E7%8E%B0%E7%9A%84%E7%AE%80%E6%98%93%E7%BC%93%E5%AD%98/)
 - [Application onCreate 初始化优化](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/23/Application-onCreate%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BC%98%E5%8C%96/)
 - [利用ARouter进行业务架构解耦](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/04/20/%E5%88%A9%E7%94%A8ARouter%E8%BF%9B%E8%A1%8C%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%A7%A3%E8%80%A6/)
