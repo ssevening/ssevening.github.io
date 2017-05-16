@@ -80,11 +80,12 @@ public class LogUtilsInit {
 
 
 
-欢迎关注作者微信公众号：
+欢迎关注作者微信公众号，及时获得作者更新：
 
 ![微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
 
-更欢迎加入作者维护的小密圈：
+另外还建立了小密圈：圈主 和 嘉宾 都就职于 阿里巴巴 的顶尖开发者，开发的app被Google 编辑推荐，对性能，架构，图片，MD设计都有研究和深入，欢迎大家加入，提升自己，一起进步，互相帮助交流！
+
 ![微信公众号](https://ssevening.github.io/assets/mi_qrcode.png)
 
 
