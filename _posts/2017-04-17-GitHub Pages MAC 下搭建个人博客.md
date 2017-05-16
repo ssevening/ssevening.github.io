@@ -52,6 +52,9 @@ ERROR:  While executing gem ... (Errno::EPERM)
 * 在github中 新建CNAME文件名，然后写上你要解析的域名即可。
 
 
-欢迎关注作者微信公众号
+欢迎关注作者微信公众号：
 
 ![微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
+
+更欢迎加入作者维护的小密圈：
+![微信公众号](https://ssevening.github.io/assets/mi_qrcode.png)

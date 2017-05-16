@@ -385,9 +385,12 @@ public <T> T create(final Class<T> service) {
 
 
 
-欢迎关注作者微信公众号
+欢迎关注作者微信公众号：
 
 ![微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
+
+更欢迎加入作者维护的小密圈：
+![微信公众号](https://ssevening.github.io/assets/mi_qrcode.png)
 
 
 
