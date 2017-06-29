@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "track.com.ssevening.www.trackdemo",
+               "sha256_cert_fingerprints": ["5D:B0:88:E2:CF:97:EF:71:08:11:10:8B:8C:C3:53:CB:FD:F1:3E:5E:0D:4C:56:3A:D1:1A:94:F1:90:C5:02:63"] }
+}]
