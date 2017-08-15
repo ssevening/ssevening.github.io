@@ -1,8 +1,8 @@
 ---
 title: 首页
 feature_text: |
-  ## 潘辰星
-  阿里巴巴无线技术专家 J2EE开发、Android开发
+  ## ssevening
+  无线开发 J2EE开发、Android开发
 feature_image: "https://ssevening.github.io/assets/android.png"
 image: "https://ssevening.github.io/assets/android.png"
 ---
