@@ -11,6 +11,8 @@ image: "https://ssevening.github.io/assets/android.png"
 - [Android开发错误姿式100手 21-22](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/08/18/Android%E5%BC%80%E5%8F%91%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-21-22/)
 - [Android开发错误姿式100手 16-20](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/07/28/Android-%E5%BC%80%E5%8F%91-%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-16-20/)
 - [读王坚博士 在线 有感](http://www.ssevening.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/07/18/%E8%AF%BB%E7%8E%8B%E5%9D%9A%E5%8D%9A%E5%A3%AB-%E5%9C%A8%E7%BA%BF-%E6%84%9F%E6%82%9F/)
+- [淘宝造物节-用技术来改变生活](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/07/12/%E6%B7%98%E5%AE%9D%E9%80%A0%E7%89%A9%E8%8A%82-%E7%94%A8%E6%8A%80%E6%9C%AF%E6%9D%A5%E6%94%B9%E5%8F%98%E7%94%9F%E6%B4%BB/)
+- [Android开发错误姿式100手 11-15](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/06/30/Android-%E5%BC%80%E5%8F%91-%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-11-14/)
 - [Android M queryIntentActivities return null list 蹲坑记](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/07/18/AndroidM-App-Link%E5%9D%91%E6%B7%B1%E4%BC%BC%E6%B5%B7/)
 - [Android开发错误资式100手](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/06/25/Android-%E5%BC%80%E5%8F%91-%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B/)
 - [走进阿里-Android开发者沙龙记](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/06/19/%E8%B5%B0%E8%BF%9B%E9%98%BF%E9%87%8C-Android%E5%BC%80%E5%8F%91%E8%80%85%E6%B2%99%E9%BE%99%E8%AE%B0/)
