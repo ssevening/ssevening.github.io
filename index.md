@@ -8,7 +8,10 @@ image: "https://ssevening.github.io/assets/android.png"
 ---
 
 ### Recommend
-
+- [Android开发错误姿式100手 21-22](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/08/18/Android%E5%BC%80%E5%8F%91%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-21-22/)
+- [Android开发错误姿式100手 16-20](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/07/28/Android-%E5%BC%80%E5%8F%91-%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-16-20/)
+- [读王坚博士 在线 有感](http://www.ssevening.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/07/18/%E8%AF%BB%E7%8E%8B%E5%9D%9A%E5%8D%9A%E5%A3%AB-%E5%9C%A8%E7%BA%BF-%E6%84%9F%E6%82%9F/)
+- [Android M queryIntentActivities return null list 蹲坑记](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/07/18/AndroidM-App-Link%E5%9D%91%E6%B7%B1%E4%BC%BC%E6%B5%B7/)
 - [Android开发错误资式100手](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/06/25/Android-%E5%BC%80%E5%8F%91-%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B/)
 - [走进阿里-Android开发者沙龙记](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/06/19/%E8%B5%B0%E8%BF%9B%E9%98%BF%E9%87%8C-Android%E5%BC%80%E5%8F%91%E8%80%85%E6%B2%99%E9%BE%99%E8%AE%B0/)
 - [Android路由方案选型](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/06/11/Android%E8%B7%AF%E7%94%B1%E6%96%B9%E6%A1%88%E9%80%89%E5%9E%8B/)
@@ -35,6 +38,6 @@ image: "https://ssevening.github.io/assets/android.png"
 
 ![微信公众号](https://ssevening.github.io/assets/weichat_qrcode.jpg)
 
-圈主 和 嘉宾 就职于 阿里巴巴 顶尖开发者，所开发App被Google Play 编辑精选，对性能，架构，图片，Material design都有研究和深入，欢迎大家加入，不仅有工作相关知识分享，更有技术趋势和学习氛围，快速提升个人竟争力！记住：如果你和别人的交换碰撞越来越少，这意味着你已经快落伍了。
+圈主 和 嘉宾 所开发App被Google Play 编辑精选，对性能，架构，图片，Material design都有研究和深入，欢迎大家加入，不仅有工作相关知识分享，更有技术趋势和学习氛围，快速提升个人竟争力！记住：如果你和别人的交换碰撞越来越少，这意味着你已经快落伍了。
 
 ![小密圈](https://ssevening.github.io/assets/mi_qrcode.png)
