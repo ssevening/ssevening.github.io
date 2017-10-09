@@ -8,6 +8,13 @@ image: "https://ssevening.github.io/assets/android.png"
 ---
 
 ### Recommend
+
+- [Android开发搞Web - SpringBoot 读写MySQL](http://www.ssevening.com/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/2017/10/04/Android%E5%BC%80%E5%8F%91%E6%90%9EWeb-SpringBoot-%E8%AF%BB%E5%8F%96MySQL/)
+
+- [Android开发搞Web-搭建微服务](http://www.ssevening.com/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/2017/10/03/Android%E5%BC%80%E5%8F%91%E6%90%9EWeb-%E6%90%AD%E5%BB%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1/)
+
+- [Android开发错误姿式100手之23-24手](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/09/22/Android%E5%BC%80%E5%8F%91%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-23-24%E6%89%8B/)
+
 - [Android开发错误姿式100手 21-22](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/08/18/Android%E5%BC%80%E5%8F%91%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-21-22/)
 - [Android开发错误姿式100手 16-20](http://www.ssevening.com/android%E5%BC%80%E5%8F%91/2017/07/28/Android-%E5%BC%80%E5%8F%91-%E9%94%99%E8%AF%AF%E5%A7%BF%E5%BC%8F100%E6%89%8B-16-20/)
 - [读王坚博士 在线 有感](http://www.ssevening.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/07/18/%E8%AF%BB%E7%8E%8B%E5%9D%9A%E5%8D%9A%E5%A3%AB-%E5%9C%A8%E7%BA%BF-%E6%84%9F%E6%82%9F/)
