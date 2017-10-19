@@ -1,5 +1,5 @@
 ---
-title: Android开发搞Web-SpringBoot 添加定时器
+title: Android开发搞Web-Spring boot Ribbon负载均衡
 category: 网站技术
 feature_image: "https://raw.githubusercontent.com/ssevening/ssevening.github.io/master/assets/android.png"
 image: "https://raw.githubusercontent.com/ssevening/ssevening.github.io/master/assets/android.png"
